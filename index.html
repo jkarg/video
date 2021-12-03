@@ -22,7 +22,12 @@
       <source src="html_multimedia-and-embedding_video-and-audio-content_viper.ogg" type="audio/ogg">
       <p>Your browser doesn't support HTML5 audio. Here is a <a href="html_multimedia-and-embedding_video-and-audio-content_viper.mp3">link to the audio</a> instead.</p> 
     </audio>
-    <video src="html_multimedia-and-embedding_video-and-audio-content_rabbit320.webm" controls>
+    
+    <video controls width="400" height="400"
+           loop muted preload="auto"
+           poster="poster.png">
+      <source src="html_multimedia-and-embedding_video-and-audio-content_rabbit320.mp4" width="400" height="400">
+      <source src="html_multimedia-and-embedding_video-and-audio-content_rabbit320.webm" width="400" height="400">
       <p>Your browser doesn't support HTML5 video. Here is a <a href="html_multimedia-and-embedding_video-and-audio-content_rabbit320.webm">link to the video</a> instead.</p> 
     </video>
 
